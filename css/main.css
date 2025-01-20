@@ -166,7 +166,7 @@ p {
   height: 19px;
   position: absolute;
   left: 0;
-  top: -1px;
+  top: 0;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
