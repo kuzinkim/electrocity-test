@@ -684,6 +684,10 @@ p {
 }
 
 .stock {
+  margin-top: 36px;
+  @media screen and (max-width: 767px) {
+    margin-top: 24px;
+  }
   &-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
