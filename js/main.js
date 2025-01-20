@@ -1,6 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-    let mobile = window.matchMedia("(max-width: 767px)").matches;
-
     function moveElement() {
         let placeToMove = document.querySelector(".header-controls");
         let town = document.querySelector(".header-location__item--town");
